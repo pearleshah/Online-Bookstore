@@ -20,10 +20,16 @@ Run the unit test file using the following command: **$ python -m unittest disco
 
 A separate 'data' folder will be created, containing the database.csv file, which will serve as the database for the online bookstore inventory management system. 
 
-# Run Without Unit Test Cases
+## Run Without Unit Test Cases
 
 To run the file without test cases, change the directory into the 'src' folder where the main.py file is. From the terminal window, run the following command: **$ python3 main.py**
 
 Follow the instructions as prompted after running the command.
 
 Once again, a separate 'data' folder will be created, containing the database.csv file, which will serve as the database for the online bookstore inventory management system. 
+
+## Some Design Decisions
+
+* Use of a CSV File: Allows for a simple way to store data and manipulate it. Also enables efficiency with retrieving certain fields of data due to its format (table).
+* Created the Bookstore Class: Allows for the code to be organized and easy to change in the case of any needed modification.
+* Dataframe Usage: Used the Pandas library to easily query, read, and write to the CSV table as needed.
