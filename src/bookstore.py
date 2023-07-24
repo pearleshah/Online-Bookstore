@@ -1,5 +1,11 @@
-# Pearle Shah
-# July 23, 2023
+""" 
+@file Online Bookstore Inventory Management System
+@author Pearle Shah <shahpearle@outlook.com>
+@date July 23, 2023
+@description
+
+This file defines the methods for the bookstore class, including how to add, remove, search, and list books.
+"""
 
 # bookstore.py
 import csv
