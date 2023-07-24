@@ -1,4 +1,12 @@
-# UNIT TEST FILE
+""" 
+@file Online Bookstore Inventory Management System
+@author Pearle Shah <shahpearle@outlook.com>
+@date July 23, 2023
+@description
+
+Test file that can be run to check the validity of the source code using a few unit test cases. 
+It tests for valid and invalid inputs for adding and removing books from the online bookstore. 
+"""
 
 import unittest
 import os
