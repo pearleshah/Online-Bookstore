@@ -1,5 +1,11 @@
-# Pearle Shah
-# July 23, 2023
+""" 
+@file Online Bookstore Inventory Management System
+@author Pearle Shah <shahpearle@outlook.com>
+@date July 23, 2023
+@description
+
+The main script for the online bookstore which handles interactions between the user and the bookstore.
+"""
 
 # main.py
 
